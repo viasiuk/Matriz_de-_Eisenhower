@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz de Eisenhower</title>
+    <link rel="stylesheet" href="styless.css"><!--ponte para css-->
+</head>
+<body>
+    <h1>Matriz de Einsenhower</h1> <!--Título do Projeto-->
+    <!--Iniciando o bloco do formulário-->
+    <div id="forms"> 
+    <!--Definido a parte em que se escreve o que quer adicionar na nova atividade-->    
+    <input type="text" id="atividade" placeholder="Adicionar nova atividade" />
+        <!--Separando a parte dos quadrantes-->
+        <select id="quadrante"> 
+            <!--Definido os quadrantes-->
+            <option value="1">Importante e Urgente</option>
+            <option value="2">Importante, mas Não Urgente </option>
+            <option value="3">Não Importante, mas Urgente</option>
+            <option value="4">Não Importante e Não Urgente</option>
+        </select>
+        <!--Botão de inserir atividade-->
+        <button id="adicionar">Adicionar</button> 
+    </div>
+    <!--Iniciando e indicando ao que pertence esse "sub-bloco" que está dentro do principal/-->
+    <div class="matriz">
+        <!--Montando os bloco referentes a cada quadrante-->
+        <div class="quadrante" id="quadrante1">
+            <!--Parte do título de cada bloco-->
+            <h2>Importante e Urgente</h2>
+        </div>
+        <div class="quadrante" id="quadrante2">
+            <!--Parte do título de cada bloco-->
+            <h2>Importante e Não Urgente</h2>
+        </div>
+        <div class="quadrante" id="quadrante3">
+            <!--Parte do título de cada bloco-->
+            <h2>Não Importante e Urgente</h2>
+        </div>
+        <div class="quadrante" id="quadrante4">
+            <!--Parte do título de cada bloco-->
+            <h2>Não Importante e Não Urgente</h2>
+        </div>
+    </div>
+    <script src="script.js"></script><!--ponte para JavaScript-->
+</body>
+</html>
+
+   
